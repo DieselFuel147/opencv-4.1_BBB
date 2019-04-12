@@ -1,0 +1,8 @@
+libdir = /opt/opencv-4.1.0/lib
+includedir = /opt/opencv-4.1.0/include/opencv4
+
+Name: OpenCV
+Description: OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.
+Version: 4.1.0
+Libs: -L${libdir} -lopencv_calib3d -lopencv_core -lopencv_dnn -lopencv_features2d -lopencv_flann  -lopencv_gapi -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_stitching -lopencv_videoio -lopencv_video
+Cflags: -I${includedir}
